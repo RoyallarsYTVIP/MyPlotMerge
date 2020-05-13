@@ -7,7 +7,7 @@ authors:
 - Exxarion
 - jasonwynn10
 - ceepkev77
-description: "Plots and Protection Plugin for PocketMine-MP Servers"
+description: "Plots and Protection and Merge Plugin for PocketMine-MP Servers"
 load: STARTUP
 softdepend:
 - PocketMoney
