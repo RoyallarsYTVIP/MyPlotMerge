@@ -14,11 +14,10 @@ softdepend:
 - EssentialsPE
 - DEVirion
 - WorldStyler
+- EconomyAPI
 extensions:
 - sqlite3
 - yaml
-depend:
-  - EconomyAPI
 permissions:
   myplot.command:
     default: op
