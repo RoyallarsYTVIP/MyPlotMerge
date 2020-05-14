@@ -7,6 +7,7 @@ authors:
 - Exxarion
 - jasonwynn10
 - ceepkev77
+- McLebt
 description: "Plots and Protection and Merge Plugin for PocketMine-MP Servers"
 load: STARTUP
 softdepend:
