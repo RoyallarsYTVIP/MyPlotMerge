@@ -8,6 +8,7 @@ authors:
 - jasonwynn10
 - ceepkev77
 - McLebt
+- Crasher508
 description: "Plots and Protection and Merge Plugin for PocketMine-MP Servers"
 load: STARTUP
 softdepend:
