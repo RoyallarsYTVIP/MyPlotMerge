@@ -78,6 +78,8 @@ permissions:
         default: true
       myplot.command.rand:
         default: true
+      myplot.command.wand:
+        default: true
       myplot.command.kick:
         default: true
   myplot.admin:
@@ -122,6 +124,10 @@ permissions:
       myplot.admin.fill:
         default: op
       myplot.admin.unmerge:
+        default: op
+      myplot.admin.rand:
+        default: op
+      myplot.admin.wand:
         default: op
       myplot.admin.middle:
         default: true
