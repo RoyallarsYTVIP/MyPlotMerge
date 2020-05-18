@@ -28,6 +28,7 @@ use MyPlot\task\FillPlotTask;
 use MyPlot\task\FillTask;
 use MyPlot\task\RoadFillTask;
 use MyPlot\task\RandTask;
+use MyPlot\task\WandTask;
 use MyPlot\task\UnMergeTask;
 use onebone\economyapi\EconomyAPI;
 use pocketmine\block\Block;
@@ -292,6 +293,20 @@ class MyPlot extends PluginBase
 		$this->getScheduler()->scheduleTask(new RandTask($this, $plot, 1 , $id, $damage));
 		return true;
 	}
+	
+	public function newWandPlot(Plot $plot, int $maxBlocksPerTick = 256, $id, $damage): bool
+	{
+		if (!$this->isLevelLoaded($plot->levelName)) {
+			return false;
+		}
+		foreach ($this->getServer()->getLevelByName($plot->levelName)->getEntities() as $entity) {
+			$plotB = $this->getPlotByPosition($entity);
+
+		}
+		$this->getScheduler()->scheduleTask(new WandTask($this, $plot, 1 , $id, $damage));
+		return true;
+	}
+	
 	public function fillPlot(Plot $plot) {
 		$this->getScheduler()->scheduleTask(new FillTask($this, $plot));
 	}
