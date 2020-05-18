@@ -108,92 +108,92 @@ class WandChest
 
 			if ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Stone Slab") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
-				$this->plugin->newRandPlot($plot, 256, 44, 0);
+				$this->plugin->newWandPlot($plot, 256, 44, 0);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Wooden Slab") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 44, 2);
+				$this->plugin->newWandPlot($plot, 256, 44, 2);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Cobblestone Slab") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 44, 3);
+				$this->plugin->newWandPlot($plot, 256, 44, 3);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Stone Brick Slab") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 44, 5);
+				$this->plugin->newWandPlot($plot, 256, 44, 5);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Quartz Slab") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 44, 6);
+				$this->plugin->newWandPlot($plot, 256, 44, 6);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Nether Brick Slab") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 44, 7);
+				$this->plugin->newWandPlot($plot, 256, 44, 7);
 
 			}
 
 			if ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Oak Fence") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 85, 0);
+				$this->plugin->newWandPlot($plot, 256, 85, 0);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Spruce Fence") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 85, 1);
+				$this->plugin->newWandPlot($plot, 256, 85, 1);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Birch Fence") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 85, 2);
+				$this->plugin->newWandPlot($plot, 256, 85, 2);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Jungle Fence") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
-				$this->plugin->newRandPlot($plot, 256, 85, 3);
+				$this->plugin->newWandPlot($plot, 256, 85, 3);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Acacia Fence") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 85, 4);
+				$this->plugin->newWandPlot($plot, 256, 85, 4);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Dark Oak Fence") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 85, 5);
+				$this->plugin->newWandPlot($plot, 256, 85, 5);
 
 			}
 
 			if ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Iron Block") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 42, 0);
+				$this->plugin->newWandPlot($plot, 256, 42, 0);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Gold Block") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 41, 0);
+				$this->plugin->newWandPlot($plot, 256, 41, 0);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Diamond Block") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 57, 0);
+				$this->plugin->newWandPlot($plot, 256, 57, 0);
 
 			} elseif ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Beacon") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 138, 0);
+				$this->plugin->newWandPlot($plot, 256, 138, 0);
 
 			}
 
 			if ($itemClickedOn->getCustomName() === TF::RESET . TF::GOLD . "Zurücksetzen") {
 				$player->sendMessage("§6Plot§8»§e Der Rand deines Grundstück wurde geändert!");
 
-				$this->plugin->newRandPlot($plot, 256, 44, 1);
+				$this->plugin->newWandPlot($plot, 256, 44, 1);
 
 			}
 			return true;
