@@ -17,7 +17,7 @@ use pocketmine\event\server\DataPacketReceiveEvent;
 use pocketmine\network\mcpe\protocol\ModalFormRequestPacket;
 use pocketmine\network\mcpe\protocol\ModalFormResponsePacket;
 
-class WandCommand extends SubCommand
+class WandSubCommand extends SubCommand
 {
 
 	protected $pl;
