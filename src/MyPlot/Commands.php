@@ -30,6 +30,7 @@ use MyPlot\subcommand\SubCommand;
 use MyPlot\subcommand\UnDenySubCommand;
 use MyPlot\subcommand\WarpSubCommand;
 use MyPlot\subcommand\RandSubCommand;
+use MyPlot\subcommand\WandSubCommand;
 use pocketmine\command\CommandSender;
 use pocketmine\command\PluginCommand;
 use pocketmine\utils\Config;
@@ -80,6 +81,7 @@ class Commands extends PluginCommand
 		$this->loadSubCommand(new KickSubCommand($plugin, "kick"));
 		$this->loadSubCommand(new RandSubCommand($plugin, "rand"));
 		$this->loadSubCommand(new FillSubCommand($plugin, "fill"));
+		$this->loadSubCommand(new WandSubCommand($plugin, "wand"));
 		$plugin->getLogger()->debug("Commands Registered to MyPlot");
 	}
 

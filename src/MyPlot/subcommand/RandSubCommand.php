@@ -55,7 +55,7 @@ class RandSubCommand extends SubCommand
         }
 		$merge = new Config($this->getPlugin()->getDataFolder() . "merge.yml", 2);
 		if ($merge->getNested($sender->getPlayer()->getLevel()->getName() . ".$plot")) {
-			$sender->sendMessage($prefix . TF::GRAY . "§cDu kannst nicht den rand von einem Merge verändern!");
+			$sender->sendMessage($prefix . TF::GRAY . "§cDu kannst nicht den Rand von einem Merge verändern!");
 			return true;
 		}
 
