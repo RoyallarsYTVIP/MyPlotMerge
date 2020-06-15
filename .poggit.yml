@@ -4,5 +4,5 @@ branches:
 - master
 projects:
   MyPlotMerge:
-    path: ""
+    path: "MyPlot/MyPlot"
 ...
