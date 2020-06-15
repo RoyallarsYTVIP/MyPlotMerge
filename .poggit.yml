@@ -1,8 +1,8 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Ceepkev77/MyPlotMerge
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/RoyallarsYTVIP/MyPlotMerge
 build-by-default: true
 branches:
 - master
 projects:
   MyPlotMerge:
-    path: "MyPlot/MyPlot"
+    path: "MyPlot"
 ...
